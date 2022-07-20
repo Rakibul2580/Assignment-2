@@ -1,0 +1,40 @@
+
+:root{
+    --blog: #161616;
+    --match: #4D4D4D;
+    --border: #E8E8E8;
+}
+.match-baner-content {
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 30px 15px;
+}
+.match-img {
+    display: flex;
+    justify-content: space-around;
+}
+.match-img h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blog);
+    align-items: center;
+    display: grid;
+    padding: 0px 10px;
+}
+.match-text h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--blog);
+    margin-top: 20px;
+}
+.match-text p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--match);
+}
