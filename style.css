@@ -9,6 +9,7 @@
     --blog: #161616;
     --border: #E8E8E8;
     --footer-coler: #B9B9B9;
+    --match: #4D4D4D;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -60,9 +61,16 @@ body{
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+    transition: text-align, 2s;
 }
 .btn a i {
     padding-left: 10px;
+}
+.btn{
+    transition: text-align, 20s;
+}
+.btn:hover {
+    text-align: center;
 }
 .header-img {
     width: 50%;
@@ -229,6 +237,46 @@ ul.footer-menu li a {
     text-decoration: none;
 }
 
+
+/*=======================
+    Upcoming Match
+========================*/
+.match-baner-content {
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 30px 15px;
+}
+.match-img {
+    display: flex;
+    justify-content: space-around;
+}
+.match-img h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blog);
+    align-items: center;
+    display: grid;
+    padding: 0px 10px;
+}
+.match-text h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--blog);
+    margin-top: 20px;
+}
+.match-text p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--match);
+}
+
+
 /*===========================
         Media Queries
 =============================*/
@@ -356,7 +404,7 @@ ul.footer-menu li a {
         width: 110px;
         margin: auto;
     }
-    a.mobile {
+    #mobile {
         width: 70%;
     }
     
