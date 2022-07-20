@@ -61,16 +61,13 @@ body{
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: text-align, 2s;
+    transition: .9s;
 }
 .btn a i {
     padding-left: 10px;
 }
-.btn{
-    transition: text-align, 20s;
-}
-.btn:hover {
-    text-align: center;
+.btn a:hover {
+    background: #4D4D4D;
 }
 .header-img {
     width: 50%;
